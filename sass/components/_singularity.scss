@@ -1,0 +1,30 @@
+.singularity {
+  justify-content: space-between;
+}
+.singularity__svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-bg-color);
+}
+.singularity__icon {
+  width: 70px;
+  height: 70px;
+}
+.singularity__item {
+  width: calc((100% - 90px) / 4);
+}
+.singularity__header {
+  margin-bottom: 10px;
+  color: var(--header-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.singularity__text {
+  line-height: 1.7;
+}
